@@ -1,8 +1,8 @@
 // Import the Express framework module
-import express from "express";
+const express =require( "express");
 
 // Import the checkCourse function from the course controller module
-import { checkCourse } from './controllers/course';
+const  checkCourse  =require( './controllers/course');
 
 // Create an instance of the Express application
 const app = express();

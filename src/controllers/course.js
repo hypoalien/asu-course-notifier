@@ -84,3 +84,5 @@ function checkCourse(data) {
     }
   }
 }
+
+module.exports = checkCourse
